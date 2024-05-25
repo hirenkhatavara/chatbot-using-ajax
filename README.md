@@ -34,9 +34,10 @@ DB_USERNAME=your_username
 DB_PASSWORD=your_password
 ```
 
-### 4. Run Migrations
+### 4. Run Migrations and link storage folder
 ```
 php artisan migrate
+php artisan storage:link 
 ```
 
 ### 5. Serve the Application
